@@ -1,0 +1,5 @@
+def printDictionary():
+  dictionary = {i: i**2 for i in range(1, 21)}
+  print(dictionary)
+
+printDictionary()
