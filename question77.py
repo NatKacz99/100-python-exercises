@@ -1,0 +1,19 @@
+# solution 1
+import datetime
+
+before = datetime.datetime.now()
+for i in range(100):
+    x = 1 + 1
+after = datetime.datetime.now()
+execution_time = after - before
+print(execution_time.microseconds)
+
+# solution 2
+import time
+
+before = time.time()
+for i in range(100):
+    x = 1 + 1
+after = time.time()
+execution_time = after - before
+print(execution_time)
